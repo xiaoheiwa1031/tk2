@@ -66,7 +66,7 @@
                                  </div>
                                      <br>
                      <div style="padding-top:20px;">
-                        <div class="id" id="id" style="display:none;">
+                        <div class="id2" id="id2" style="display:none;">
                             <div class="panel panel-default">
                                 <div class="panel-body" style="text-align:center;">
                                    <p><font color="FF000"> <b>安卓TikTok抖音</b></font> </p>
@@ -79,8 +79,8 @@
                         </div>
                           <div class="text-center">
                         <span id="checkinfo">
-                            <a href="" class="btn btn-success btn-lg btn-circle" id="uaApp">安卓安装</a>
-                            <div class="uatip" id="uaTip">
+                            <a href="" class="btn btn-success btn-lg btn-circle" id1="uaApp2">安卓安装</a>
+                            <div class="uatip2" id="uaTip2">
                                 <span class="uatip-icon"></span>                         
                           </span>
                         </div>
@@ -138,17 +138,17 @@
         if (Browser == 0) {
             ele.onclick = function(e) {
                 window.event ? window.event.returnValue = false : e.preventDefault();
-                document.getElementById('uaTip').style.display = 'block';
+                document.getElementById('uaTip2').style.display = 'block';
             }
         } else {
-            $("#uaApp").click(function() {
-                $("#uaApp").attr("style", "display:none;");
-                $("#ul").attr("style", "display:none;");
-                $("#id").attr("style", "display:block;");
+            $("#uaApp2").click(function() {
+                $("#uaApp2").attr("style", "display:none;");
+                $("#ul2").attr("style", "display:none;");
+                $("#id2").attr("style", "display:block;");
             });
         }
     }
-    var btn1 = document.getElementById('uaApp');
+    var btn1 = document.getElementById('uaApp2');
     weixinTip(btn1);
     </script>
                             <script type="text/javascript" src="assets/js/jquery-1.7.2.min.js"></script>
